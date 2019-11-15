@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+}
+.bigbox{
+	position: relative;
+	width: 100%;
+	height: 750px;
+	background-image: url(../img/2.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	z-index: 10;
+}
+.list{
+	font-size: 0;
+	list-style: none;
+	padding-left: calc((100% - 300px)/2);
+	padding-top: 10px;
+}
+.list li{
+	margin: 0 10px;
+	float: left;
+	font-size: 16px;
+	font-weight: 400;
+	/*text-align: center;*/
+	
+}
+.xiaotubiao{
+	position: absolute;
+	top: 30px;
+	right: 60px;
+}
+.onebox{
+	z-index: 10;
+	position: relative;
+}
+.onebox div{
+	display:inline-block;
+	margin: 0 10px;
+	margin-left: 40px;
+}
+.box{
+	width: 300px;
+	height: 300px;
+}
+.box img{
+	width: 300px;
+	height: 300px;
+}
+.box p{
+	text-align: center;
+}
+.box1{
+	width: 100%;
+	height: 110%;
+	background-image: url(../img/ia_100000022.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: fixed;
+	top: 0px;
+	z-index: 1;
+}
+.smallbox{
+	text-align: center;
+	position: relative;
+	top: 80px;
+}
+.smallbox1{
+	width: 80%;
+	height: 200px;
+	background: white;
+	position: relative;
+	left: 10%;
+	
+}
+.smallbox1 img{
+	width: 400px;
+	height: 150px;
+	position: absolute;
+	left: 10px;
+	top: calc((200px - 150px)/2);
+	
+}
+.zi{
+	font-size: 10px;
+	position: absolute;
+	right: 50px;
+	top: 50px;
+}
+.zi div{
+	margin: 5px auto;
+}
+
+.ljgd {
+	position: relative;
+	bottom: -150px;
+}
+.ljgd p{
+	position: relative;
+	right: -50px;
+}
+.e{
+	background-color: white;
+	position: relative;
+	top: 150px;
+	z-index: 10;
+	width: 100%;
+	height: 172px;
+	padding-left: 100px;
+}
+.e img{
+	position: relative;
+	top: 50px;
+}
+.lxi{
+	position: relative;
+	z-index: 10;
+	top: 150px;
+	width: 100%;
+	height: 200px;
+	background-color: #f7f7f7;
+}
+#heng{
+	position: absolute;
+	top: 66%;
+	left: calc((100% - 50px)/2);
+	height: 4px;
+	width: 30px;
+	background: white;
+}
+#heng1{
+	position: absolute;
+	top: 66%;
+	left: calc((100% + 10px)/2);
+	height: 4px;
+	width: 30px;
+	background: white;
+	opacity: 0.5;
+}
+#cha{
+	text-align: center;
+	margin-top: -126px;
+}
+#tea{
+	font-size: 10px;
+	font-weight: 300;
+	text-align: center;
+	margin-top: 3px;
+}
+#xian{
+	height: 2px;
+	width: 300px;
+	float: left;
+	background-color: greenyellow;
+}
